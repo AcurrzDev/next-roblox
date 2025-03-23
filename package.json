@@ -1,23 +1,39 @@
 {
 	"name": "@rbxts/next-roblox",
 	"version": "1.0.0",
-	"description": "",
+	"description": "A Next.js-inspired routing library for Roblox using @rbxts/react.",
 	"main": "out/init.luau",
 	"scripts": {
 		"build": "rbxtsc",
 		"watch": "rbxtsc -w",
 		"prepublishOnly": "npm run build"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"keywords": [
+		"roblox",
+		"typescript",
+		"react",
+		"router",
+		"nextjs",
+		"rbxts",
+		"ui"
+	],
+	"author": "rgk2k7@outlook.com",
+	"license": "MIT",
 	"types": "out/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AcurrzDev/next-roblox.git"
+	},
 	"files": [
-		"out",
+		"out/**/*",
 		"!**/*.tsbuildinfo"
 	],
 	"publishConfig": {
 		"access": "public"
+	},
+	"peerDependencies": {
+		"@rbxts/react": "17.2.3",
+		"@rbxts/react-roblox": "17.2.3"
 	},
 	"devDependencies": {
 		"@rbxts/compiler-types": "^3.0.0-types.0",
@@ -35,5 +51,9 @@
 	"dependencies": {
 		"@rbxts/react": "^17.2.3",
 		"@rbxts/react-roblox": "^17.2.3"
-	}
+	},
+	"bugs": {
+		"url": "https://github.com/AcurrzDev/next-roblox/issues"
+	},
+	"homepage": "https://github.com/AcurrzDev/next-roblox#readme"
 }
