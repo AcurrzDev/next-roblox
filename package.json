@@ -2,7 +2,7 @@
 	"name": "@rbxts/next-roblox",
 	"version": "1.0.0",
 	"description": "",
-	"main": "out/init.lua",
+	"main": "out/init.luau",
 	"scripts": {
 		"build": "rbxtsc",
 		"watch": "rbxtsc -w",
